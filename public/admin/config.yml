@@ -3,7 +3,7 @@ backend:
   branch: main # change this to your branch
   repo: mosescheng/Astro-theme-Cactus-zh_CN # 1、change this to your repo
   site_domain: ccxblog.968188.xyz # 2、change this to your domain
-  base_url: https://blog.968188.xyz # 3、change this to your prod URL
+  base_url: https://ccxblog.968188.xyz # 3、change this to your prod URL
   auth_endpoint: oauth # the oauth route provided by the integration
 
 collections:
