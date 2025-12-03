@@ -47,13 +47,13 @@ export default defineConfig({
         /**
          * optional
          **/
-        short_name: "仙人掌主题",
+        short_name: "放飞灵魂",
         description: siteConfig.description,
         lang: siteConfig.lang,
         icon: "public/icon.svg", // the source for generating favicon & icons
         icons: [
             {
-                src: "icons/apple-touch-icon.png", // used in src/components/BaseHead.astro L:26
+                src: "!https://img.968188.xyz/2025/12/f5f616364cc9b2613e60bb6bece66ba9.png", // used in src/components/BaseHead.astro L:26
                 sizes: "180x180",
                 type: "image/png",
             },
@@ -110,7 +110,7 @@ export default defineConfig({
     prefetchAll: true,
   },
     // ! 改为你的网站地址，不然社交图片无法加载
-    site: "https://demo.343700.xyz/",
+    site: "https://ccxblog.968188.xyz/",
     vite: {
         optimizeDeps: {
             exclude: ["@resvg/resvg-js"],
